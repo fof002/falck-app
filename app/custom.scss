@@ -1,0 +1,18 @@
+$primary: #1f2937;
+$btn-close-color: #fff;
+$bs-navbar-color: #fff;
+
+main {
+  max-width: 80em;
+  margin: 1rem auto 0 auto;
+  padding: 0 1em;
+}
+
+/*For blogpost */
+.blog-card {
+}
+.blog-card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
